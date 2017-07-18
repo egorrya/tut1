@@ -82,3 +82,445 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 236ms (Views: 16.7ms)
 
 
+Started GET "/" for 10.240.1.45 at 2017-07-17 16:55:22 +0000
+Cannot render console from 10.240.1.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (134.6ms)
+Completed 500 Internal Server Error in 138ms
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.):
+    11:   <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+    12: </div>
+    13: 
+    14: <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14:in `_app_views_static_pages_home_html_erb__783561893999703374_70067559855100'
+Started GET "/" for 10.240.1.45 at 2017-07-17 16:55:48 +0000
+Cannot render console from 10.240.1.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 1768ms
+
+
+  
+ActionView::Template::Error (Missing partial layouts/__shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+     6:                                            "data-turbolinks-track" => true %>
+     7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+     8:     <%= csrf_meta_tags %>
+     9:     <%= render 'layouts/_shim' %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render 'layouts/_header' %>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3067186083167688997_11740280'
+Started GET "/" for 10.240.1.31 at 2017-07-17 16:56:10 +0000
+Cannot render console from 10.240.1.31! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 27.8ms)
+
+
+Started GET "/" for 10.240.1.18 at 2017-07-17 16:56:22 +0000
+Cannot render console from 10.240.1.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 26.3ms)
+
+
+Started GET "/" for 10.240.1.4 at 2017-07-17 16:57:56 +0000
+Cannot render console from 10.240.1.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1617ms (Views: 1615.9ms)
+
+
+Started GET "/" for 10.240.1.31 at 2017-07-17 16:58:46 +0000
+Cannot render console from 10.240.1.31! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 30.2ms)
+
+
+Started GET "/" for 10.240.1.31 at 2017-07-17 17:00:48 +0000
+Cannot render console from 10.240.1.31! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 28.1ms)
+
+
+Started GET "/" for 10.240.0.189 at 2017-07-17 17:01:34 +0000
+Cannot render console from 10.240.0.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1293ms (Views: 1292.0ms)
+
+
+Started GET "/" for 10.240.1.45 at 2017-07-17 17:01:58 +0000
+Cannot render console from 10.240.1.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 1572ms (Views: 1570.6ms)
+
+
+Started GET "/" for 10.240.0.224 at 2017-07-17 17:02:31 +0000
+Cannot render console from 10.240.0.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1406ms (Views: 1405.3ms)
+
+
+Started GET "/" for 10.240.1.45 at 2017-07-17 17:02:43 +0000
+Cannot render console from 10.240.1.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1352ms (Views: 1350.9ms)
+
+
+Started GET "/" for 10.240.0.189 at 2017-07-17 17:03:22 +0000
+Cannot render console from 10.240.0.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (4.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 2609ms (Views: 2607.3ms)
+
+
+Started GET "/" for 10.240.0.224 at 2017-07-17 17:03:35 +0000
+Cannot render console from 10.240.0.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1674ms (Views: 1671.5ms)
+
+
+Started GET "/" for 10.240.1.4 at 2017-07-17 17:03:49 +0000
+Cannot render console from 10.240.1.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1585ms (Views: 1583.9ms)
+
+
+Started GET "/" for 10.240.1.4 at 2017-07-17 17:04:01 +0000
+Cannot render console from 10.240.1.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (57.2ms)
+  Rendered layouts/_header.html.erb (282.0ms)
+  Rendered layouts/_footer.html.erb (135.5ms)
+Completed 200 OK in 14896ms (Views: 14868.8ms)
+
+
+Started GET "/help" for 10.240.1.18 at 2017-07-17 17:06:49 +0000
+Cannot render console from 10.240.1.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (1.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 181ms (Views: 177.8ms)
+
+
+Started GET "/help" for 10.240.1.18 at 2017-07-17 17:06:52 +0000
+Cannot render console from 10.240.1.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 29.7ms)
+
+
+Started GET "/about" for 10.240.1.31 at 2017-07-17 17:06:54 +0000
+Cannot render console from 10.240.1.31! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (1.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 49ms (Views: 45.1ms)
+
+
+Started GET "/about" for 10.240.1.4 at 2017-07-17 17:06:57 +0000
+Cannot render console from 10.240.1.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.0ms)
+
+
+Started GET "/about" for 10.240.1.45 at 2017-07-17 17:06:59 +0000
+Cannot render console from 10.240.1.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 68ms (Views: 66.9ms)
+
+
+Started GET "/" for 10.240.1.67 at 2017-07-18 11:15:11 +0000
+Cannot render console from 10.240.1.67! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (383.7ms)
+Completed 500 Internal Server Error in 589ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `singup_path' for #<#<Class:0x000000025cba50>:0x000000025fdeb0>
+Did you mean?  signup_path):
+     8:     sample application.
+     9:   </h2>
+    10: 
+    11:   <%= link_to "Sign up now!", singup_path, class: "btn btn-large btn-primary" %>
+    12: </div>
+  
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___2074661860769706174_38868500'
+Started GET "/" for 10.240.0.224 at 2017-07-18 11:15:57 +0000
+Cannot render console from 10.240.0.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 118ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x000000025cba50>:0x00000004e5e7b0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title yield(:title) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb___1414864588543442450_41188820'
+Started GET "/" for 10.240.1.67 at 2017-07-18 11:16:54 +0000
+Cannot render console from 10.240.1.67! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 135ms
+
+
+  
+ActionView::Template::Error (undefined method `base_title' for #<#<Class:0x000000025cba50>:0x007f43288c37b0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= base_title yield(:title) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb___1414864588543442450_69963209866820'
+Started GET "/" for 10.240.1.18 at 2017-07-18 11:18:07 +0000
+Cannot render console from 10.240.1.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 209ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x000000025cba50>:0x007f43282437c8>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb___1414864588543442450_69963206670180'
+Started GET "/" for 10.240.0.224 at 2017-07-18 11:21:02 +0000
+Cannot render console from 10.240.0.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (273.0ms)
+Completed 500 Internal Server Error in 693ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0x000000025cba50>:0x000000035905f8>):
+    1:     <header class="navbar navbar-fixed-top navbar-inverse">
+    2:       <div class="navbar-inner">
+    3:         <div class="container">
+    4:           <%= link_to "sample app", home_path, id: "logo" %>
+    5:           <nav>
+    6:             <ul class="nav nav-pills pull-right">
+    7:               <li><%= link_to "Home", home_path %></li>
+  
+app/views/layouts/_header.html.erb:4:in `_app_views_layouts__header_html_erb__3436168447482583179_69963212606580'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1414864588543442450_28222760'
+Started GET "/" for 10.240.1.4 at 2017-07-18 11:21:51 +0000
+Cannot render console from 10.240.1.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (334.5ms)
+Completed 500 Internal Server Error in 381ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0x000000025cba50>:0x007f432a016a20>):
+    1:     <header class="navbar navbar-fixed-top navbar-inverse">
+    2:       <div class="navbar-inner">
+    3:         <div class="container">
+    4:           <%= link_to "sample app", home_path, id: "logo" %>
+    5:           <nav>
+    6:             <ul class="nav nav-pills pull-right">
+    7:               <li><%= link_to "Home", '/' %></li>
+  
+app/views/layouts/_header.html.erb:4:in `_app_views_layouts__header_html_erb__3436168447482583179_69963236755320'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1414864588543442450_69963222364560'
+Started GET "/" for 10.240.1.18 at 2017-07-18 11:22:16 +0000
+Cannot render console from 10.240.1.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 80ms (Views: 77.0ms)
+
+
+Started GET "/signup" for 10.240.1.67 at 2017-07-18 11:22:23 +0000
+Cannot render console from 10.240.1.67! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 30.6ms)
+
+
+Started GET "/" for 10.240.1.67 at 2017-07-18 11:22:26 +0000
+Cannot render console from 10.240.1.67! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 33.5ms)
+
+
+Started GET "/help" for 10.240.1.45 at 2017-07-18 11:22:28 +0000
+Cannot render console from 10.240.1.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 62ms (Views: 33.1ms)
+
+
+Started GET "/help" for 10.240.1.45 at 2017-07-18 11:22:29 +0000
+Cannot render console from 10.240.1.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 29.4ms)
+
+
+Started GET "/help" for 10.240.0.189 at 2017-07-18 11:22:31 +0000
+Cannot render console from 10.240.0.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/" for 10.240.1.45 at 2017-07-18 11:23:07 +0000
+Cannot render console from 10.240.1.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 37.7ms)
+
+
+Started GET "/signup" for 10.240.0.189 at 2017-07-18 11:23:22 +0000
+Cannot render console from 10.240.0.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 29.8ms)
+
+
